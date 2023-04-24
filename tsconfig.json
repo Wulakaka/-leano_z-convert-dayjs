@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "noEmit": true,
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
@@ -15,11 +16,7 @@
     "skipLibCheck": true,
     "paths": {
       "@/*": ["./src/*"]
-    },
-    "declaration": true,
-    "declarationDir": "./dist/types",
-    "declarationMap": true,
-    "emitDeclarationOnly": true
+    }
   },
   "include": ["src"]
 }
