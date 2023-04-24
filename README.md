@@ -1,6 +1,11 @@
 # convert-dayjs
 二次封装dayjs，当地时间与东八区时间互相转换
 
+## 安装
+```shell
+pnpm add @leano_z/convert-dayjs
+```
+
 ## API
 
 所有方法返回对象均为`dayjs`对象，所以可以调用`dayjs`的所有方法。
